@@ -1,2 +1,2 @@
 # NathanResume
-The 'NathanResume' Reposity on GitHub contains my resume website.
+The 'NathanResume' Repository on GitHub contains my resume website.
