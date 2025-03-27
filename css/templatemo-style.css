@@ -1,11 +1,3 @@
-/*
-
-Ultra Profile
-
-https://templatemo.com/tm-464-ultra-profile
-
-*/
-
 body {
   background: #ffffff;
   font-family: 'Raleway', sans-serif;
@@ -80,7 +72,7 @@ hr {
 /* END NAVIGATION */
 
 /* START HOME */
-.templatemo-home {
+.nathan-home {
   background: url('../images/home-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
