@@ -1,11 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
-  --mainTextColor: #000000;
-  --secondaryTextColor: #1b2741;
-  --mainLinkColor: #3a99d8;
-  --mainBorderColor: #e6d4ec;
-  --mainBgColor: #f5f4f4;
+  --mainTextColor-Light: #000000;
+  --secondaryTextColor-Light: #1b2741;
+  --mainLinkColor-Light: #3a99d8;
+  --mainBorderColor-Light: #e6d4ec;
+  --mainBgColor-Light: #f5f4f4;
+  
+  --mainTextColor-Dark: #ffffff;
+  --secondaryTextColor-Dark: #dbe1ec;
+  --mainLinkColor-Dark: #3a99d8;
+  --mainBorderColor-Dark: #2d2a33;
+  --mainBgColor-Dark: #131415;
+  
+  --mainTextColor: var(--mainTextColor-Dark);
+  --secondaryTextColor: var(--secondaryTextColor-Dark);
+  --mainLinkColor: var(--mainLinkColor-Dark);
+  --mainBorderColor: var(--mainBorderColor-Dark);
+  --mainBgColor: var(--mainBgColor-Dark);
 }
 
 *{
