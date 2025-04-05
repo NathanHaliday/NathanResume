@@ -2,9 +2,9 @@
 
 :root {
   --mainTextColor: #000000;
-  --secondaryTextColor: #333333;
-  --mainLinkColor: #25d7e4;
-  --mainBorderColor: #cea9da;
+  --secondaryTextColor: #1b2741;
+  --mainLinkColor: #3a99d8;
+  --mainBorderColor: #e6d4ec;
   --mainBgColor: #f5f4f4;
 }
 
@@ -26,9 +26,13 @@ p, span, li{
 
 a{
   text-decoration: none;
-  color: var(--mainLinkColor);
+  color: var(--mainTextColor);
   font-size: 1.04em;
   font-weight: 350;
+}
+
+a:hover{
+  color: var(--mainLinkColor);
 }
 
 li{
@@ -57,7 +61,7 @@ li{
 }
 
 #bio{
-  font-weight: 300;
+  font-weight: 340;
 }
 
 #profile-picture{
@@ -65,6 +69,10 @@ li{
   width: 200px;
   height: 200px;
   object-fit: cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 #email{
@@ -76,4 +84,13 @@ li{
   justify-content: space-between;
   column-gap: 1em;
   flex-wrap: wrap;
+}
+
+#socials--list a{
+  font-size: 0.9em;
+  color: var(--secondaryTextColor)
+}
+
+#socials--list a:hover{
+  color: var(--mainLinkColor)
 }
