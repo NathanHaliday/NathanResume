@@ -4,13 +4,13 @@
   --mainTextColor-Light: #000000;
   --secondaryTextColor-Light: #1b2741;
   --mainLinkColor-Light: #3a99d8;
-  --mainBorderColor-Light: #e6d4ec;
+  --mainBorderColor-Light: #4b20af;
   --mainBgColor-Light: #f5f4f4;
 
   --mainTextColor-Dark: #ffffff;
   --secondaryTextColor-Dark: #dbe1ec;
   --mainLinkColor-Dark: #3a99d8;
-  --mainBorderColor-Dark: #2d2a33;
+  --mainBorderColor-Dark: #4b20af;
   --mainBgColor-Dark: #131415;
 
   --mainTextColor: var(--mainTextColor-Dark);
@@ -115,4 +115,21 @@ li{
 
 #skills--list{
   list-style: none;
+}
+
+#wrapper--techstack__items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  font-size: 0.9em;
+}
+
+.card--techstack{
+  border: 1px solid var(--mainBorderColor);
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
