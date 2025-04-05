@@ -12,7 +12,7 @@
   --mainLinkColor-Dark: #3a99d8;
   --mainBorderColor-Dark: #2d2a33;
   --mainBgColor-Dark: #131415;
-  
+ 
   --mainTextColor: var(--mainTextColor-Dark);
   --secondaryTextColor: var(--secondaryTextColor-Dark);
   --mainLinkColor: var(--mainLinkColor-Dark);
