@@ -66,3 +66,14 @@ li{
   height: 200px;
   object-fit: cover;
 }
+
+#email{
+  color:var(--mainTextColor)
+}
+
+#socials--list{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1em;
+  flex-wrap: wrap;
+}
