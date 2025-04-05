@@ -6,13 +6,13 @@
   --mainLinkColor-Light: #3a99d8;
   --mainBorderColor-Light: #e6d4ec;
   --mainBgColor-Light: #f5f4f4;
-  
+
   --mainTextColor-Dark: #ffffff;
   --secondaryTextColor-Dark: #dbe1ec;
   --mainLinkColor-Dark: #3a99d8;
   --mainBorderColor-Dark: #2d2a33;
   --mainBgColor-Dark: #131415;
- 
+
   --mainTextColor: var(--mainTextColor-Dark);
   --secondaryTextColor: var(--secondaryTextColor-Dark);
   --mainLinkColor: var(--mainLinkColor-Dark);
@@ -100,6 +100,7 @@ li{
 
 #socials--list a{
   font-size: 0.9em;
+  font-weight: 450;
   color: var(--secondaryTextColor);
   transition: 0.3s;
   -webkit-transition: 0.3s;
