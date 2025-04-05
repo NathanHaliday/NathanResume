@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
   --mainTextColor: #000000;
@@ -9,5 +9,37 @@
 }
 
 *{
-    font-family: "Rubik";
+  font-family: "Rubik";
+  line-height: 1.5em;
+  box-sizing: border-box;
+  color: var(--mainTextColor);
+}
+
+body{
+  background-color: var(--mainBgColor);
+}
+
+p, span, li{
+  color: var(--secondaryTextColor);
+  font-size: 1em;
+}
+
+a{
+  text-decoration: none;
+  color: var(--mainLinkColor);
+  font-size: 1.04em;
+}
+
+li{
+  line-height: 1.9em;
+}
+
+#container--main{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section--page{
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
