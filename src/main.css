@@ -133,3 +133,10 @@ li{
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
+.card--awards{
+  border-left: 1px solid var(--mainBorderColor);
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding-left: 1em;
+}
