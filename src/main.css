@@ -157,3 +157,9 @@ li{
 #awards--list{
   list-style: none;
 }
+
+.card--interests{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid var(--mainBorderColor);
+}
