@@ -112,7 +112,7 @@ li{
 }
 
 #socials--list a{
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 450;
   color: var(--secondaryTextColor);
   transition: 0.3s;
