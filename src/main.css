@@ -167,3 +167,24 @@ li{
 #softball--list{
   list-style: none;
 }
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.image-container img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
