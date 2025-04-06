@@ -91,8 +91,8 @@ li{
 
 #profile-picture{
   border-radius: 5cqh;
-  width: 250px;
-  height: 270px;
+  width: 270px;
+  height: 300px;
   object-fit: cover;
   -webkit-border-radius: 5cqh;
   -moz-border-radius: 5cqh;
