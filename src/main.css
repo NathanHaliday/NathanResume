@@ -163,3 +163,7 @@ li{
   padding-bottom: 1em;
   border-top: 1px solid var(--mainBorderColor);
 }
+
+#softball--list{
+  list-style: none;
+}
