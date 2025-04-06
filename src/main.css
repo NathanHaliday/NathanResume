@@ -81,8 +81,8 @@ li{
 }
 
 #user-name{
-  font-size: 3em;
-  line-height: 1em;
+  font-size: 4em;
+  line-height: 0.8em;
 }
 
 #bio{
@@ -90,14 +90,14 @@ li{
 }
 
 #profile-picture{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  border-radius: 5cqh;
+  width: 250px;
+  height: 270px;
   object-fit: cover;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  -webkit-border-radius: 5cqh;
+  -moz-border-radius: 5cqh;
+  -ms-border-radius: 5cqh;
+  -o-border-radius: 5cqh;
 }
 
 #email{
