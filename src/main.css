@@ -187,7 +187,7 @@ li{
 }
 
 .image--row img {
-  max-width: 24%;
+  max-width: 100%;
   height: auto;
   border-radius:2cqw;
   -webkit-border-radius:2cqw;
