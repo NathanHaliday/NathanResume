@@ -54,6 +54,7 @@ a:hover{
 
 li{
   line-height: 2.2em;
+  list-style: none;
 }
 
 #container--main{
@@ -126,10 +127,6 @@ li{
   color: var(--mainLinkColor);
 }
 
-#skills--list{
-  list-style: none;
-}
-
 #wrapper--techstack__items{
   display: flex;
   flex-wrap: wrap;
@@ -154,18 +151,10 @@ li{
   padding-left: 1em;
 }
 
-#awards--list{
-  list-style: none;
-}
-
 .card--interests{
   padding-top: 1em;
   padding-bottom: 1em;
   border-top: 1px solid var(--mainBorderColor);
-}
-
-#softball--list{
-  list-style: none;
 }
 
 .flex--container {
