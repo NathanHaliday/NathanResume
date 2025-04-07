@@ -146,6 +146,12 @@ li{
 
 .card--awards{
   border-left: 1px solid var(--mainBorderColor);
+  background-color: var(--mainBgColor);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   margin-top: 3em;
   margin-bottom: 3em;
   padding-left: 1em;
@@ -166,6 +172,14 @@ li{
 
 .text--container {
   flex: 1;
+  border-left: 1px solid var(--mainBorderColor);
+  padding-left: 1em;
+  background-color: var(--mainBgColor);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .image--container img {
