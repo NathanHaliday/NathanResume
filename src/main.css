@@ -191,14 +191,14 @@ li{
 }
 
 .image--row {
-  display: flex;
+  display: below;
   justify-content: space-between;
   gap: 1em;
   margin-top: 2em;
 }
 
 .image--row img {
-  max-width: 30%;
+  max-width: 24%;
   height: auto;
   border-radius:5cqw;
   -webkit-border-radius:5cqw;
