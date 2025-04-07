@@ -189,10 +189,10 @@ li{
 .image--row img {
   max-width: 24%;
   height: auto;
-  border-radius:5cqw;
-  -webkit-border-radius:5cqw;
-  -moz-border-radius:5cqw;
-  -ms-border-radius:5cqw;
-  -o-border-radius:5cqw;
+  border-radius:2cqw;
+  -webkit-border-radius:2cqw;
+  -moz-border-radius:2cqw;
+  -ms-border-radius:2cqw;
+  -o-border-radius:2cqw;
   -webkit-border-radius: 103;
 }
