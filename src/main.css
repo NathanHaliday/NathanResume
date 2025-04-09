@@ -210,3 +210,8 @@ li{
   -o-border-radius:2cqw;
   -webkit-border-radius: 103;
 }
+
+td.part--image{
+  max-width: 30%;
+  height: auto;
+}
