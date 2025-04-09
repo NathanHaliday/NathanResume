@@ -211,7 +211,13 @@ li{
   -webkit-border-radius: 103;
 }
 
-td.part--image{
-  max-width: 20%;
+.part--image img{
+  max-width: 40%;
   height: auto;
+  border-radius: 5cqh;
+  -webkit-border-radius: 5cqh;
+  -moz-border-radius: 5cqh;
+  -ms-border-radius: 5cqh;
+  -o-border-radius: 5cqh;
+  ;
 }
