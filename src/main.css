@@ -213,7 +213,7 @@ li{
 
 table, th, td{
   border: 1px solid var(--mainBorderColor);
-  border-collapse:initial;
+  border-collapse: collapse;
   padding: 0.2em;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -238,12 +238,37 @@ table, th, td{
 }
 
 .part--image img{
-  width: 50%;
+  width: 150px;
   height: auto;
-  object-fit: cover;
-  border-radius: 5cqh;
-  -webkit-border-radius: 5cqh;
-  -moz-border-radius: 5cqh;
-  -ms-border-radius: 5cqh;
-  -o-border-radius: 5cqh;
+  object-fit: contain;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+table.part--list{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2em;
+  background-color: var(--mainBgColor);
+  border: 1px solid var(--mainBorderColor);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table.part--list th, table.part--list td{
+  padding: 1em;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid var (--mainBorderColor);
+}
+
+table.part--list th{
+  background-color: var(--mainBgColor);
+  color: var(--mainTextColor);
+  font-weight: 600;
 }
