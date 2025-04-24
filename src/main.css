@@ -213,7 +213,7 @@ li{
 
 table, th, td{
   border: 1px solid var(--mainBorderColor);
-  border-collapse:unset;
+  border-collapse:initial;
   padding: 0.2em;
   border-radius: 10px;
   -webkit-border-radius: 10px;
