@@ -34,6 +34,8 @@ body{
 p, span, li{
   color: var(--secondaryTextColor);
   font-size: 1em;
+  line-height: 1.6em;
+  word-wrap: break-word;
 }
 
 a{
@@ -70,7 +72,7 @@ li{
 #hero{
   display: flex;
   align-items: center;
-  gap: 4em;
+  gap: 1em;
   position: relative;
   width: 100%;
   height: 340px;
@@ -306,18 +308,16 @@ table.part--list th{
   margin: 0.3em;
 }
 
-@media (max-width: 768px){
+@media (max-width:480px){
   #hero{
+    height: auto;
+    min-height: 200px;
     flex-direction: column;
+    padding: 1em;
   }
 
-  #profile-pic{
-    width:200px;
-    height:200px;
-  }
-
-  .section--page{
-    padding-top: 1em;
-    padding-bottom: 1em;
+  #profile-picture{
+    width: 100%;
+    height:auto;
   }
 }
