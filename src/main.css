@@ -272,3 +272,35 @@ table.part--list th{
   color: var(--mainTextColor);
   font-weight: 600;
 }
+
+.grid--container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.grid--item{
+  background-color: var(--mainBgColor);
+  border: 1px solid var(--mainBorderColor);
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0 4px 6px rgba(77, 60, 60, 0.349);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.grid--item.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid--item.image img{
+  width: 700px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
