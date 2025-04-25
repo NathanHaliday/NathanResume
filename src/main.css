@@ -167,8 +167,9 @@ li{
 
 .flex--container{
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
-  gap: 2em;
+  gap: 1em;
   margin-bottom: 2em;
 }
 
@@ -185,6 +186,8 @@ li{
 }
 
 .image--container img{
+  float: left;
+  margin: 0 1em 1em 0;
   max-width: 300px;
   height: auto;
   border-radius:5cqw;
@@ -319,5 +322,18 @@ table.part--list th{
   #profile-picture{
     width: 100%;
     height:auto;
+  }
+
+  .image--container img, .image--row img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;;
+  }
+
+  .image--row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
   }
 }
