@@ -299,8 +299,9 @@ table.part--list th{
 }
 
 .grid--item.image img{
-  width: 700px;
+  width: 600px;
   height: auto;
   border-radius: 10px;
   object-fit: cover;
+  margin: 0.3em;
 }
