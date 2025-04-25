@@ -37,7 +37,7 @@ p, span, li{
 }
 
 a{
-  text-decoration: none;
+  text-decoration:underline;
   color: var(--mainTextColor);
   font-size: 1.04em;
   font-weight: 350;
