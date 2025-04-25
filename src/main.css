@@ -257,6 +257,7 @@ table, th, td{
 
 table.part--list{
   width: 100%;
+  min-width: 600px;
   border-collapse: collapse;
   margin-top: 2em;
   background-color: var(--mainBgColor);
