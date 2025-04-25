@@ -285,7 +285,7 @@ table.part--list th{
   border: 1px solid var(--mainBorderColor);
   border-radius: 10px;
   padding: 1em;
-  box-shadow: 0 4px 6px rgba(77, 60, 60, 0.349);
+  box-shadow: 0 3px 6px rgba(42, 61, 102, 0.192);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
