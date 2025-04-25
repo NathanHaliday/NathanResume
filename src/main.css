@@ -275,8 +275,8 @@ table.part--list th{
 
 .grid--container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
-  gap: 2em;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
   margin-top: 2em;
 }
 
@@ -285,7 +285,7 @@ table.part--list th{
   border: 1px solid var(--mainBorderColor);
   border-radius: 10px;
   padding: 1em;
-  box-shadow: 0 3px 6px rgba(42, 61, 102, 0.192);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -298,8 +298,8 @@ table.part--list th{
   justify-content: center;
 }
 
-.grid--item.image img{
-  width: 600px;
+.blender--image img{
+  width: calc(50% - 0.8em);
   height: auto;
   border-radius: 10px;
   object-fit: cover;
