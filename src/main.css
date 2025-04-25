@@ -305,3 +305,19 @@ table.part--list th{
   object-fit: cover;
   margin: 0.3em;
 }
+
+@media (max-width: 768px){
+  #hero{
+    flex-direction: column;
+  }
+
+  #profile-pic{
+    width:200px;
+    height:200px;
+  }
+
+  .section--page{
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
